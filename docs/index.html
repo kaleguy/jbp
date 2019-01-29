@@ -47,6 +47,9 @@
           },
           "rgcitations": {
             "host": "http://localhost:8888/rg/citations?name=",
+          },
+          "rgjournal": {
+            "host": "http://localhost:8888/rg/journal?name=",
           }
         }
     }
@@ -245,6 +248,27 @@
     </div></script>
 <script type=text/template id=rgcitations>CITATIONS</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118289537-1"></script>
+<script type="text/template" id="rgjournal">
+    <h2>{{= data.title}}</h2>
+
+    <div>Publisher: {{= data.publisher}}</div>
+    <div class="hshim"></div>
+    <div class="publication-abstract">
+        {{= data.description}}
+    </div>
+    <div class="hshim"></div>
+    <table class="lv-rowset">
+        <tr><th>RG Impact: </th><td>{{= data.rgimpact}}</td></tr>
+        <tr><th>Halflife: </th><td>{{= data.halflife}}</td></tr>
+        <tr><th>Immediacy:  </th><td>{{= data.immediacy}}</td></tr>
+        <tr><th>Eigen Factor: </th><td>{{= data.eigenfactor}}</td></tr>
+        <tr><th>Influence: </th><td>{{= data.influence}}</td></tr>
+        <tr><th>Website: </th><td>{{= data.website}}</td></tr>
+        <tr><th>ISSN:  </th><td>{{= data.issn}}</td></tr>
+        <tr><th>Doctype:  </th><td>{{= data.doctype}}</td></tr>
+    </table>
+
+</script>
 <script>window.dataLayer = window.dataLayer || [];
 
 function gtag() {

@@ -5569,6 +5569,8 @@ organized in multiple ways with the Leo Outlining Editor, displayed with LeoVue.
 [Jordan B Peterson on ResearchGate](https://www.researchgate.net/profile/Jordan_Peterson2)
 
 [Jordan B Peterson Home Page](https://jordanbpeterson.com/)
+
+This site was last updated on 1/31/2019. 
 </t>
 </tnodes>
 </leo_file>
